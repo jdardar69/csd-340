@@ -1,0 +1,51 @@
+/* Dardar_Mod2_2.css */
+
+html,
+body {
+  font-size: 16px;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  text-align: left;
+  padding-top: 15px;
+}
+
+address {
+  text-align: center;
+}
+
+.website {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #4F3674;
+  text-decoration: none;
+}
+
+.website:hover {
+  text-decoration: underline;
+  background-color: #D6A800;
+}
+
+.website:visited {
+  color: #6B3FA0; /* your choice for visited styling */
+}
+
+.sentence {
+  font-style: italic;
+}
+
+.intro {
+  text-indent: 2em;
+}
