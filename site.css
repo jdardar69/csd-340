@@ -30,3 +30,9 @@ a:hover {
 a:visited {
   color: #6b3fa0;               
 }
+a { 
+  pointer-events: auto; 
+}
+#container * {
+  position: static;
+}
