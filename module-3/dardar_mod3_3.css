@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+ol,
+ul {
+  font-weight: 300;
+}
+
+.side-by-side {
+  width: 100%;
+}
+
+.left-div,
+.right-div {
+  width: 45%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-div {
+  float: left;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.right-div {
+  float: right;
+  border: 1px dashed red;
+  border-radius: 15px;
+}
+
+.left-div ol {
+  padding: 10px;
+  list-style-position: inside;
+}
+
+.right-div ul {
+  padding: 10px;
+  list-style-position: inside;
+  list-style-type: upper-roman;
+}
+
+.last-div {
+  width: 100%;
+  margin-top: 60%;
+  float: right;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
