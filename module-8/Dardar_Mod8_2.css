@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+/* Header */
+header {
+  background-color: #b14a00;
+  color: #fff;
+  padding: 18px 0 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Nav (left aligned like example) */
+nav {
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 12px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 12px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container aligns cards on the left with blank space on right */
+#container {
+  padding: 20px 0 110px 60px;
+}
+
+/* Orange titles above the cards */
+.section-title {
+  color: #b14a00;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  width: 420px;
+  text-align: center;
+}
+
+/* Small cards (NOT full-width) */
+.card {
+  width: 420px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  background: #fff;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+/* Table */
+#movies {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#movies th {
+  background-color: #b14a00;
+  color: white;
+  text-align: left;
+  padding: 8px;
+  font-size: 12px;
+}
+
+#movies td {
+  border: 1px solid #e6e6e6;
+  padding: 10px 8px;
+  font-size: 12px;
+  vertical-align: top;
+}
+
+#movies ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+/* Food links like the example */
+.card-content a {
+  color: #0047cc;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+/* Footer (left text + right link) */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b14a00;
+  color: white;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  font-style: italic;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
