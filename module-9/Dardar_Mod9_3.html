@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="CSD 340 Web Development with HTML and CSS" />
+  <meta name="author" content="Jordan Dardar" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>CSD 340 Web Development with HTML and CSS</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+    .buttons {
+      margin-top: 20px;
+    }
+    button {
+      margin: 6px 10px 0 0;
+      padding: 6px 10px;
+      cursor: pointer;
+    }
+    .blank {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+  <h2>A Short Story</h2>
+
+  <p>
+    On Saturday morning, I walked outside and realized the air felt different.
+    The sky was clear, and the neighborhood was quiet in that way that makes you feel like
+    something good is about to happen. I grabbed my hoodie and decided to take the long way
+    down the street just to enjoy it.
+  </p>
+
+  <p>
+    Halfway down the road, I heard a familiar sound coming from the park.
+    A kid was laughing, a dog was running in circles, and someone was practicing a song
+    that I actually recognized. It made me slow down and pay attention instead of rushing
+    through everything like I normally do.
+  </p>
+
+  <p>
+    By the time I got home, I felt oddly refreshed. It wasn’t some huge life-changing moment,
+    but it reminded me that simple things can reset your mood. That day, I decided my four
+    “good things” were <span id="word1" class="blank">_____</span>,
+    <span id="word2" class="blank">_____</span>,
+    <span id="word3" class="blank">_____</span>, and
+    <span id="word4" class="blank">_____</span>.
+  </p>
+
+  <div class="buttons">
+    <button type="button" onclick="fillWord1()">Word 1</button>
+    <button type="button" onclick="fillWord2()">Word 2</button>
+    <button type="button" onclick="fillWord3()">Word 3</button>
+    <button type="button" onclick="fillWord4()">Word 4</button>
+  </div>
+
+  <script>
+    // Four JavaScript variables holding the string inputs for the span tags
+    const wordOne = "peace";
+    const wordTwo = "music";
+    const wordThree = "laughter";
+    const wordFour = "gratitude";
+
+    function fillWord1() {
+      document.getElementById("word1").textContent = wordOne;
+    }
+
+    function fillWord2() {
+      document.getElementById("word2").textContent = wordTwo;
+    }
+
+    function fillWord3() {
+      document.getElementById("word3").textContent = wordThree;
+    }
+
+    function fillWord4() {
+      document.getElementById("word4").textContent = wordFour;
+    }
+  </script>
+
+</body>
+</html>
